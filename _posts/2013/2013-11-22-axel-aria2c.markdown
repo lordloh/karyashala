@@ -1,0 +1,45 @@
+---
+layout: post
+title: "axel & aria2c"
+date: "2013-11-22 00:00"
+permalink: axel-aria2c
+author: Bharath Bhushan Lohray
+---
+
+Most shell users at some point of time would feel the need to have a multi-threaded download manager something more than just `wget`. I was no different. While I was searching for one, I learnt that `wget` could not do it natively, but could be hacked into doing it – see this [Stack Overflow Answer](http://stackoverflow.com/a/7645245/482176).
+
+wget for multi threaded downloads
+
+```
+wget -r -np -N <url> &
+wget -r -np -N <url> &
+wget -r -np -N <url> &
+wget -r -np -N <url> &
+...
+```
+
+Even though `wget` cannot execute a multi threaded download, it can continue a broken download if used with the `-c` flag.
+
+Resuming a broken download using `wget`.
+
+```
+wget -c <url>
+```
+
+However, I did not like it and continued to look for more. I came across a script called `aget` - http://www.enderunix.org/aget/. I soon realized that `aget` did not handle https URLs and I immediately ditched it. Finally I stumbled upon a tool called `axel` – http://freecode.com/projects/axel. This is an easy to use multi threaded downloader for the shell. `axel` is included in the repositories of most major distribution now, and can be installed easily using the default package manager. For example -
+
+```
+sudo apt-get install axel
+```
+
+Unlike `wget`, the command line options for using axel are very simple -
+
+```
+axel -n 10 <uri>
+```
+
+This downloads the file specified by the `<uri>` using 10 concurrent connections. A primer on using axel can be found in this [article from Linux Journal](http://www.linuxjournal.com/content/speed-your-downloads-axel).
+
+The same Stack Overflow answer lists several alternatives. One of the alternatives that looked impressive was `aria2c` - http://aria2.sourceforge.net/. `aria2c` also seems to have the ability to handle bit-torrents and magnet URLs.
+
+I wish `apt` and `yum` could download packages concurrently as well.

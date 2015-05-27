@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "'sup"
+date:   2012-12-02 00:00
+categories: opinion
+permalink: sup
+author: Bharath Bhushan Lohray
+---
+!["XMPP"](http://cdn.bharath.lohray.com/weblog/im/sup/799px-Wie_ein_Jabber-Transport_funktioniert.svg_.png)
+
+“What’s up?” is the most irritating thing that I hear almost every day. The only thing worse than “What’s up?” is “‘sup ?”. I have wondered “What is “What’s up?”". Is it a question? or is it a greeting? I can safely conclude that it is not a question because I meet people walking across corridors directing this infernal phrase at me and not waiting for an answer. I have either concluded correctly, or these people are really bad mannered and lack the curtsey to wait and listen to an answer after asking a question. So it has to be a greeting. In which case, they speak bad English. “Wh” words are used to frame a question - rhetorical or otherwise. Here is a flow chat illustrating this.
+
+![A flow chat dissecting the infernal phrase
+What’s up?](http://cdn.bharath.lohray.com/weblog/im/sup/Whatsup.png)
+__A flow chat dissecting the infernal phrase
+What’s up?__
+
+### Whatsapp
+However, this is not the reason I am posting this entry. This entry is to explain why I adamantly refuse to use the popular service [whatsapp](http://www.whatsapp.com/).
+
+The policy and the frame work of the whatsapp service is as bad as the infernal phrase that inspired it’s name. Whatsapp attempts to be a low cost replacement to SMS Message Service. The question I would like to ask is “Do we need another low cost replacement to SMS?”.
+
+4G LTE-A is gearing up to be the driving technology of mobile telecommunications in the foreseeable future. The spectral efficiency of LTE is 96 time higher than 2G telecommunications networks used for voice calls (telephony)ref. This will eventually lead to wide deployment of voice over LTE (Korea is already doing this). So couple of year down the line we shall see pure internet mobile devices unlike the mobile devices today which have an additional LTE modem apart from the RF Front end to make voice calls. It goes without saying that a pure internet device could use any messaging service to send short text messages. I am tempted to say that future phone numbers shall be formatted as “user@domain.com” using SIP, but this just wishful thinking on my part. This is less likely to happen as it shall become hard for service providers to bill people for minutes! According to me, a fair billing would be paying for data usage and XMPP or SIP service for maintenance and nothing more.
+
+The Internet Engineering Task Force(IETF) develops and promotes Internet standards, cooperating closely with the W3C and ISO/IEC standards bodies. formalized eXtensible Messaging and Presence Protocol (XMPP) with [RFC 3920][RFC3920], [RFC 3921][RFC3921], [RFC 3922][RFC3922] and [RFC 3923][RFC3923]. XMPP is more than just a near real-time text chatting protocol. It can be extended to encapsulate more than just text messages and most importantly can communicate across XMPP services being operated by different XMPP service providers and even to non-XMPP services via gateways at the server level. Now, can whatsapp do this? Google Talk and Jabber can.
+
+!["XMPP Cross Service Communications"](http://cdn.bharath.lohray.com/weblog/im/sup/799px-Wie_ein_Jabber-Transport_funktioniert.svg_.png)
+**XMPP Cross Service Communications**
+
+While Google Talk is does not have features to communicate with non-XMPP services at the server level, it has the ability to do so. Whatsapp does not even have a desktop or web based client to send and receive messages! Am I expected to use a phone to type messages for people when I have a comfortable keybord in front of me?
+
+XMPP is the most versatile and open protocol for near real time text communications (SIP and IRC are considered competitors to XMPP), using anything that is not based on XMPP is doing a disservice to yourself and the internet community in general. If a product is very popular, it might end up becoming a de facto standard. I certainly do not want to see sub-standard products (like whatsapp) becoming de facto standards.
+
+I would like to conclude this entry by pointing out that whatsapp is not the only closed protocol service. Saya.im is another one. I do not see any reason why a service like whatsapp cannot be built on XMPP or SIP and leave the XMPP endpoint exposed for other services to interface to. I hope whatsapp fans see the light of sense.
+
+#### _Added on 2012-12-28:_
+I have come to believe that whatsapp indeed uses XMPP to provide its services but keeps the XMPP endpoint hidden from the users. Apparently, a user may not use whatsapp from more than one device at a time (Bad Thing #1). Installing and registering whatsapp from a second device unregisters the first device (Bad Thing #1.5). The device must have a phone number (Bad Thing #2). I have gathered from various articles that the username is the phone number and the password is either the IMEI numberinfoIMEI NumberInternational Mobile Station Equipment Identification Number. or an unsalted  hash of the IMEI number (Bad Thing #3). Verifying this might be an interesting project – something I am not likely to take up in the near future.
+
+[RFC3920]: http://www.rfc-editor.org/rfc/rfc3920.txt
+[RFC3921]: http://www.rfc-editor.org/rfc/rfc3921.txt
+[RFC3922]: http://www.rfc-editor.org/rfc/rfc3922.txt
+[RFC3923]: http://www.rfc-editor.org/rfc/rfc3923.txt

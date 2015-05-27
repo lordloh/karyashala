@@ -1,0 +1,28 @@
+# Site settings
+title: कार्यशाला (Kāryaśālā)
+email: bharath
+description: > # this means to ignore newlines until "baseurl:"
+  The outcomes of the Lord Loh's tinkerings.
+baseurl: "/weblog" # the subpath of your site, e.g. /blog/
+url: "http://bharath.lohray.com" # the base hostname & protocol for your site
+twitter_username: lordloh
+github_username:  lordloh
+paginate: 5
+paginate_path: "/page:num/"
+detach: true
+
+analytics :
+  provider : google
+  id : 'UA-28154703-2'
+
+# Build settings
+#markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+navigation:
+ - title: About
+   url: about/

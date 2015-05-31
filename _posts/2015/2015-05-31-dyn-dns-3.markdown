@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Dynamic DNS 3"
+date: "2015-05-31 00:00"
+permalink: dyn-dns-3
+author: Bharath Bhushan Lohray
+---
+
+This is the third reboot of my Dynamic DNS project. Bah! Do I not have anything better to do? why did I have to (re)create this three times?
+
+### 2011
+Well, the very first implementation was in late 2011 ([blog post](/weblog/the-dynamic-dns-update-system)). This version was based on a `apache` and `dnsmasq`. I was running this on my EC2 instance. A few months later, I got a notice from AWS asking me to terminate my open recursive resolver ([What is wrong with an open resolver?](http://openresolverproject.org/) [Smurf attacks](https://en.wikipedia.org/wiki/Smurf_attack)). Apparently `dnsmasq`is setup as an open resolver on for the local network on installation. For my purpose, I had to make it listen on the WAN interface. At that time, I could not figure out a way to make dnsmasq work just the way I wanted it without compromising on the security.
+
+### 2013
+The second implementation was done in mid 2013 ([blog post](/weblog/developing-a-self-hosted-dynamic-dns-system)). This used `bind9`, `apache` and `php`. This should have been my last implementation, but unfortunately, my EC2 server vanished from existence taking with it, three years worth of my blogs. Made me realize that I should never never cut corners on backups.
+
+## 2015
+After the disappointment of loosing all serevr in late 2013, I did not put any serious effort into setting up a new blog or recovering my old one for several months. As for as my Dynamic DNS was concerned, I simply set up a static `bind9` server with no front end or any endponit to update it when the address changes. Eventually, I rewrote my lost script. So, this one is a bit sleeker and more elegant. And this time around, I put the source on [github | dynDnsEP ](https://github.com/lordloh/dynDnsEP) along with some documentation.
+
+## Roadmap
+
+For future, I am planning to make some minor improvements.
+
+- Add an IP address dashboard to see how recently a host was updated.
+- Build an noip compatible API.
+
+I may list [more ideas](https://github.com/lordloh/dynDnsEP/labels/enhancement) with time and eventually implement them. Should you feel a feature is lacking, feel free to put in a request [here](https://github.com/lordloh/dynDnsEP/issues/new).

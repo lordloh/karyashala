@@ -19,41 +19,42 @@ The things I used in this project were -
 * Type-A to micro-B USB cable (US$ 2.99) [eBay - US | UK | CA | AU | FR | IT | DE | NL].
 * A bus powered 4 port USB hub (free) [eBay - US | UK | CA | AU | FR | IT | DE | NL].
 
-Type-A to micro-B USB Cable
+![Type-A to micro-B USB cable.](http://cdn.bharath.lohray.com/weblog/im/a-power-supply-self-powered-usb-hub-for-raspberry-pi/microUSB.jpg)
 Type-A to micro-B USB cable.
 
 The type-A to micro-B USB cable was cut in two parts. I used the type-A end to replace the exiting upstream USB plug of the self powered USB hub. The USB hub had an inconveniently  short cable for the upstream plug. The micro-B end was used to power the Raspberry Pi.
 
-A Bus Powered USB Hub
+![A Bus Powered USB Hub](http://cdn.bharath.lohray.com/weblog/im/a-power-supply-self-powered-usb-hub-for-raspberry-pi/DSC_5718.jpg)
 A Bus Powered USB Hub
 
 The self powered USB hub that I used was one that I got as a freebie given out by Fidelity Investments at the job fair. I trust the above picture makes describing it’s uselessness redundant. USB 2.0 specifications guarantee a minimum of 500mA but devices may draw as much as 1.8A. So a 4 port USB hub calls for provisioning at least 2A of current.
 
-A 5v 3A Power Supply
+![A 5v 3A Power Supply](http://cdn.bharath.lohray.com/weblog/im/a-power-supply-self-powered-usb-hub-for-raspberry-pi/DSC_5717.jpg)
 5V 3A Power Supply
 
 The Raspberry Pi documentation claim that the Model-B may consume ~700mA to 1A depending on the devices connected.  [This answer on stack exchange](http://raspberrypi.stackexchange.com/a/1183/1562) reports the current drawn under various usage scenarios very well based on [this forum post](http://www.raspberrypi.org/phpBB3/viewtopic.php?f=63&t=6050&start=50). Considering everything, I decided to use a power source rated at 3A. While this will be insufficient if one chooses to run the Raspberry Pi and the modified hub at the limit, It is sufficient to power an overclocked  Raspberry Pi (950MHz) + Logitech unifying receiver + [Edimax WiFi dongle](http://www.edimax.com/en/produce_detail.php?pd_id=347&pl1_id=1) ([amazon][AMZN_EDIMAX]) + 3 external portable USB drives (amazon – [2TB][AMZN_D2TB] | [1.5 TB][AMZN_D1_5TB] | [1TB][AMZN_D1TB])  + driving Ethernet signals on a 6 foot long CAT 6 cable  (*All tested successfully!*).
 
  The hub initially had a jack which was de-soldered and removed. Also the barrel connector of the power supply above is unnecessary. It was cut off and  the power source was connected to the micro-B end of the previously cut cable. The point of connection of the two cables was soldered into the PCB of the self powered USB hub at the point from where the power jack was removed.
 
-Modifying the Bus Powered USB Hub to a Self Powered USB Hub
+ ![Modifying the Bus Powered USB Hub to a Self Powered USB Hub](http://cdn.bharath.lohray.com/weblog/im/a-power-supply-self-powered-usb-hub-for-raspberry-pi/DSC_5720.jpg)
 Modifying the Bus Powered USB Hub to a Self Powered USB Hub
 
 I decided to pour some hot glue on the soldered area to provide some strain relief. However, it would not withstand a tug-of-war.
 
-The Raspberry Pi Power Setup
+![The Raspberry Pi Power Setup](http://cdn.bharath.lohray.com/weblog/im/a-power-supply-self-powered-usb-hub-for-raspberry-pi/DSC_5719.jpg)
 The Raspberry Pi Power Setup
 
 The image above is how my final setup looks. While this was designed for a Raspberry Pi, it can be used with any development board that has a USB port (ex: beagle bone). The block diagram of the modification is shown below.
 
-Raspberry Pi - Power Mod Diagram
+![Raspberry Pi – Power Mod Diagram](http://cdn.bharath.lohray.com/weblog/im/a-power-supply-self-powered-usb-hub-for-raspberry-pi/Circuit.jpg)
 Raspberry Pi – Power Mod Diagram
 
-The Raspberry Pi Power Setup connected to the Raspberry Pi.
-
+![The Raspberry Pi Power Setup connected to the Raspberry Pi.](http://cdn.bharath.lohray.com/weblog/im/a-power-supply-self-powered-usb-hub-for-raspberry-pi/DSC_5721.jpg)
 The Raspberry Pi Power Setup
 
 To keep the hub in place, I decided to stick it to the Adafruit acrylic box ([Amazon][AMZN_PIBOX]) with a double sided adhesive tape.
+
+![The Raspberry Pi Power Setup connected to the Raspberry Pi.](http://cdn.bharath.lohray.com/weblog/im/a-power-supply-self-powered-usb-hub-for-raspberry-pi/DSC_5723.jpg)
 
 2013-10-01: I discovered that makezine referred to my post – [see this](http://makezine.com/2013/09/30/usb-hub-powers-the-pi-and-its-peripherals/).
 

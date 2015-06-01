@@ -15,3 +15,10 @@ function getCookie(cname){
 	}
 	return "";
 }
+
+if (owner==1){
+	setCookie("whoami","owner",300);
+	console.log(getCookie("whoami")+" is set.");
+}else{
+	console.log('whoami cookie set.');
+}

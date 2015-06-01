@@ -2,6 +2,8 @@
 layout: post
 title: "Locking a Linux TTY or terminal"
 date: "2013-12-28 00:00"
+category: Linux
+tags: [tips-tricks, shell]
 permalink: locking-a-linux-tty-or-terminal
 author: Bharath Bhushan Lohray
 ---

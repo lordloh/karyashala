@@ -3,6 +3,8 @@ layout: post
 title: "axel & aria2c"
 date: "2013-11-22 00:00"
 permalink: axel-aria2c
+category: Linux
+tags: [tips-tricks, shell]
 author: Bharath Bhushan Lohray
 ---
 

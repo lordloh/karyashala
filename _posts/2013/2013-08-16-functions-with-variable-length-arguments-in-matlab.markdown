@@ -3,6 +3,7 @@ layout: post
 title:  "Functions with variable length arguments in MATLAB"
 date:   2013-08-16 00:00
 categories: MATLAB
+tags: [code]
 permalink: functions-with-variable-length-arguments-in-matlab
 author: Bharath Bhushan Lohray
 ---

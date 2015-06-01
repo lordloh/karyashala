@@ -3,6 +3,8 @@ layout: post
 title: "Manual Memory Management."
 date: "2013-12-26 00:00"
 permalink: manual-memory-management
+tags: [tips-tricks, shell]
+category: Linux
 author: Bharath Bhushan Lohray
 ---
 

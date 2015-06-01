@@ -2,7 +2,8 @@
 layout: post
 title:  "A Power Supply & Self Powered USB Hub for Raspberry Pi"
 date:   2013-09-22 00:00
-categories: Embedded Raspberry-pi
+categories: [Embedded,Hardware]
+tags: [raspberry-pi, diy]
 permalink: a-power-supply-self-powered-usb-hub-for-raspberry-pi
 author: Bharath Bhushan Lohray
 ---

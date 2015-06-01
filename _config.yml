@@ -24,5 +24,9 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
 navigation:
+ - title: Categories
+   url: category/
+ - title: Tags
+   url: tags/
  - title: About
    url: about/

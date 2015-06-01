@@ -2,6 +2,8 @@
 layout: post
 title: "Running MATLAB with a high priority."
 date: "2013-04-29 00:00"
+category: [MATLAB, Linux]
+tags: [tips-tricks, shell]
 permalink: running-matlab-with-a-high-priority
 author: Bharath Bhushan Lohray
 ---

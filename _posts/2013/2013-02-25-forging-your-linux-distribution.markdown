@@ -2,6 +2,8 @@
 layout: post
 title: "Forging your Linux Distribution"
 date: "2013-02-25 00:00"
+category: Linux
+tags: [tips-tricks]
 permalink: forging-your-linux-distribution
 author: Bharath Bhushan Lohray
 ---

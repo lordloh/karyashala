@@ -24,6 +24,8 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
 navigation:
+ - title: CV
+   url: http://bharath.lohray.com/cv/
  - title: Categories
    url: category/
  - title: Tags

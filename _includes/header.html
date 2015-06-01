@@ -16,7 +16,13 @@
       <div class="trigger">
         {% for item in site.navigation %}
           {% if item.title %}
-          <a class="page-link" href="{{ item.url | prepend: '/' | prepend: site.baseurl }}">{{ item.title }}</a>
+          <a class="page-link" href="
+          {% if item.url contains 'http://' %}
+            {{ item.url }}
+          {% else %}
+            {{ item.url | prepend: '/' | prepend: site.baseurl }}
+          {% endif %}
+          ">{{ item.title }}</a>
           {% endif %}
         {% endfor %}
       </div>

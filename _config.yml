@@ -6,7 +6,17 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/weblog" # the subpath of your site, e.g. /blog/
 url: "http://bharath.lohray.com" # the base hostname & protocol for your site
 twitter_username: lordloh
+youtube_username: bharathlohray
 github_username:  lordloh
+pintrest_username:  lordloh
+bitbucket_username:  lordloh
+instagram_username: lordloh
+sx_username: 223144/lord-loh
+u500px: lordloh
+fb_username: bharath.lohray
+flickr: 31556024@N00
+linkedin: lohray
+gplus_username: +BharathBhushanLohray
 paginate: 5
 paginate_path: "/page:num/"
 detach: true

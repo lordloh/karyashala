@@ -3,6 +3,7 @@ layout: post
 title:  "Creating a compressed image of a disk."
 date:   2013-08-25 00:00
 categories: Linux
+comments: true
 tags: [tips-tricks]
 permalink: creating-a-compressed-image-of-a-disk
 author: Bharath Bhushan Lohray

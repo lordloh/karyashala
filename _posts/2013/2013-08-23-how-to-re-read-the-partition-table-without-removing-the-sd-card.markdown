@@ -3,6 +3,7 @@ layout: post
 title:  "How to re-read the partition table without removing the SD card"
 date:   2013-08-23 00:00
 categories: Linux
+comments: true
 tags: [tips-tricks]
 permalink: how-to-re-read-the-partition-table-without-removing-the-sd-card
 author: Bharath Bhushan Lohray

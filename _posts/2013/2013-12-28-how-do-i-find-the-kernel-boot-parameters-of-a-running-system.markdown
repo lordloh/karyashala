@@ -4,6 +4,7 @@ title: "How do I find the kernel boot parameters of a running system?"
 date: "2013-12-28 00:00"
 permalink: how-do-i-find-the-kernel-boot-parameters-of-a-running-system
 category: Linux
+comments: true
 tags: [tips-tricks]
 author: Bharath Bhushan Lohray
 ---

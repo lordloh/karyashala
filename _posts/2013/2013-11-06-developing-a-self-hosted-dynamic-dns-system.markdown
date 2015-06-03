@@ -3,6 +3,7 @@ layout: post
 title:  "Developing a self-hosted Dynamic DNS System"
 date:   2013-11-06 00:00
 category: [Linux, WebWorks]
+comments: true
 tags: [diy, dns]
 permalink: developing-a-self-hosted-dynamic-dns-system
 author: Bharath Bhushan Lohray

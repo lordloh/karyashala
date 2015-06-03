@@ -3,6 +3,7 @@ layout: post
 title:  "Online Colour Test."
 date:   2013-09-26 00:00
 categories: Links
+comments: true
 tags: [web]
 permalink: online-colour-test
 author: Bharath Bhushan Lohray

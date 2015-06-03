@@ -5,6 +5,7 @@ date: "2013-12-28 00:00"
 category: Linux
 tags: [tips-tricks, shell]
 permalink: locking-a-linux-tty-or-terminal
+comments: true
 author: Bharath Bhushan Lohray
 ---
 

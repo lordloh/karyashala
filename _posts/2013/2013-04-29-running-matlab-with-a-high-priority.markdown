@@ -5,6 +5,7 @@ date: "2013-04-29 00:00"
 category: [MATLAB, Linux]
 tags: [tips-tricks, shell]
 permalink: running-matlab-with-a-high-priority
+comments: true
 author: Bharath Bhushan Lohray
 ---
 

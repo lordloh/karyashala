@@ -3,6 +3,7 @@ layout: post
 title: "MATLAB Startup Folder"
 date: "2013-09-26 00:00"
 permalink: matlab-startup-folder
+comments: true
 tags: [tips-tricks]
 category: MATLAB
 author: Bharath Bhushan Lohray

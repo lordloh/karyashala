@@ -4,6 +4,7 @@ title:  "'sup"
 date:   2012-12-02 00:00
 categories: [opinion,technology]
 permalink: sup
+comments: true
 author: Bharath Bhushan Lohray
 ---
 !["XMPP"](http://cdn.bharath.lohray.com/weblog/im/sup/799px-Wie_ein_Jabber-Transport_funktioniert.svg_.png)

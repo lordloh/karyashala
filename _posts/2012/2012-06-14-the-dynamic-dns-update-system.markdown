@@ -3,6 +3,7 @@ layout: post
 title:  "The dynamic DNS update system"
 date:   2012-06-14 00:00
 categories: Linux
+comments: true
 permalink: the-dynamic-dns-update-system
 author: Bharath Bhushan Lohray
 ---

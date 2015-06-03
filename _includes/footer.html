@@ -4,8 +4,10 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% if site.disqus.link %}
+          <li><a href="{{ site.disqus.link }}">disqus</a></li>
+          {% endif %}
         </ul>
       </div>
       <div class="footer-col  footer-col-2">
@@ -39,7 +41,7 @@
         </ul>
       </div>
       <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
+        <div class="g-page" data-href="//plus.google.com/u/0/108080546208253280304" data-rel="publisher"></div>
       </div>
     </div>
   </div>
@@ -53,3 +55,10 @@
 {% if site.analytics.provider == 'google' %}
 {% include ga.html %}
 {% endif %}
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>

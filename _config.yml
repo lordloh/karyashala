@@ -15,7 +15,11 @@ analytics :
   provider : google
   id : 'UA-28154703-2'
 
-disqus_shortname: 'karyashala'
+disqus:
+  shortname: 'karyashala'
+  link: https://disqus.com/home/forum/karyashala/
+
+googleplusPgId: 108080546208253280304
 
 # Build settings
 #markdown: kramdown

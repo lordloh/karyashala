@@ -16,9 +16,9 @@ function getCookie(cname){
 	return "";
 }
 
-if (owner==1){
+if (typeof owner!=="undefined"){
 	setCookie("whoami","owner",300);
-	console.log(getCookie("whoami")+" is set.");
+	console.log(getCookie("whoami")+" is just set.");
 }else{
 	console.log('whoami cookie set.');
 }

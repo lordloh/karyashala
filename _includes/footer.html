@@ -53,6 +53,9 @@
 <script>
 {% include cookies.js %}
 </script>
+{% if page.comments %}
+{% include disqusjs.html %}
+{% endif %}
 {% if site.analytics.provider == 'google' %}
 {% include ga.html %}
 {% endif %}

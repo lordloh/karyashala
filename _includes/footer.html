@@ -1,5 +1,68 @@
 <footer class="site-footer">
   <div class="wrapper">
+    <div style="text-align:right">
+      {% if site.linkedin %}
+        <a href="https://www.linkedin.com/in/{{ site.linkedin }}">
+          <span class="icon icon-linkedin"></span>
+        </a>
+      {% endif %}
+      {% if site.flickr %}
+        <a href="https://www.flickr.com/photos/{{ site.flickr }}">
+          <span class="icon icon-flickr3"></span>
+        </a>
+      {% endif %}
+      {% if site.sx_username %}
+        <a href="https://stackexchange.com/users/{{ site.sx_username }}">
+          <span class="icon icon-stackoverflow"></span>
+        </a>
+      {% endif %}
+      {% if site.gplus_username %}
+        <a href="https://plus.google.com/u/0/{{ site.gplus_username }}/about">
+          <span class="icon icon-google-plus2"></span>
+        </a>
+      {% endif %}
+      {% if site.fb_username %}
+        <a href="https://www.facebook.com/{{ site.fb_username }}">
+          <span class="icon icon-facebook2"></span>
+        </a>
+      {% endif %}
+      {% if site.instagram_username %}
+        <a href="https://instagram.com/{{ site.instagram_username }}">
+          <span class="icon icon-instagram"></span>
+        </a>
+      {% endif %}
+      {% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}">
+          <span class="icon icon-github4"></span>
+        </a>
+      {% endif %}
+      {% if site.twitter_username %}
+        <a href="https://twitter.com/{{ site.twitter_username }}">
+          <span class="icon icon-twitter2"></span>
+        </a>
+      {% endif %}
+      {% if site.pintrest_username %}
+        <a href="https://www.pinterest.com/{{ site.pintrest_username }}">
+          <span class="icon icon-pinterest2"></span>
+        </a>
+      {% endif %}
+      {% if site.youtube_username %}
+        <a href="https://www.youtube.com/user/{{ site.youtube_username }}/videos">
+          <span class="icon icon-youtube3"></span>
+        </a>
+      {% endif %}
+      {% if site.u500px %}
+        <a href="https://bitbucket.org/{{ site.bitbucket_username }}">
+          <span class="icon icon-bitbucket-square" style="font-size: 1.2em"></span>
+        </a>
+      {% endif %}
+      {% if site.u500px %}
+        <a href="https://500px.com/{{ site.u500px }}">
+          <span class="icon icon-500px"></span>
+        </a>
+      {% endif %}
+      <hr/>
+    </div>
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
@@ -9,69 +72,10 @@
           {% endif %}
         </ul>
       </div>
-      <div class="footer-col  footer-col-2" style="font-size:2em; text-decoration:none">
-          {% if site.linkedin %}
-            <a href="https://www.linkedin.com/in/{{ site.linkedin }}">
-              <span class="icon icon-linkedin"></span>
-            </a>
-          {% endif %}
-          {% if site.flickr %}
-            <a href="https://www.flickr.com/photos/{{ site.flickr }}">
-              <span class="icon icon-flickr3"></span>
-            </a>
-          {% endif %}
-          {% if site.sx_username %}
-            <a href="https://stackexchange.com/users/{{ site.sx_username }}">
-              <span class="icon icon-stackoverflow"></span>
-            </a>
-          {% endif %}
-          {% if site.gplus_username %}
-            <a href="https://plus.google.com/u/0/{{ site.gplus_username }}/about">
-              <span class="icon icon-google-plus2"></span>
-            </a>
-          {% endif %}
-          {% if site.fb_username %}
-            <a href="https://www.facebook.com/{{ site.fb_username }}">
-              <span class="icon icon-facebook2"></span>
-            </a>
-          {% endif %}
-          {% if site.instagram_username %}
-            <a href="https://instagram.com/{{ site.instagram_username }}">
-              <span class="icon icon-instagram"></span>
-            </a>
-          {% endif %}
-          {% if site.github_username %}
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="icon icon-github4"></span>
-            </a>
-          {% endif %}
-          {% if site.twitter_username %}
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="icon icon-twitter2"></span>
-            </a>
-          {% endif %}
-          {% if site.pintrest_username %}
-            <a href="https://www.pinterest.com/{{ site.pintrest_username }}">
-              <span class="icon icon-pinterest2"></span>
-            </a>
-          {% endif %}
-          {% if site.youtube_username %}
-            <a href="https://www.youtube.com/user/{{ site.youtube_username }}/videos">
-              <span class="icon icon-youtube3"></span>
-            </a>
-          {% endif %}
-          {% if site.u500px %}
-            <a href="https://bitbucket.org/{{ site.bitbucket_username }}">
-              <span class="icon icon-bitbucket-square" style="font-size: 1.2em"></span>
-            </a>
-          {% endif %}
-          {% if site.u500px %}
-            <a href="https://500px.com/{{ site.u500px }}">
-              <span class="icon icon-500px"></span>
-            </a>
-          {% endif %}
+      <div class="footer-col  footer-col-2" style="font-size:1em; text-decoration:none">
+          &nbsp;
       </div>
-      <div class="footer-col footer-col-3">
+      <div class="footer-col footer-col-3" style="text-align:right">
         <div class="g-page" data-href="//plus.google.com/u/0/108080546208253280304" data-rel="publisher"></div>
       </div>
     </div>

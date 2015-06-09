@@ -61,4 +61,4 @@ To conclude, I would sum up as -
 
 Additionally I would like to point out some [research by Google studying large population of hard drives](GOOGLE2007). According to them, technologies such as [SMART](https://en.wikipedia.org/wiki/S.M.A.R.T.) were not reliable at predicting failures for individual drives. However correlations may only be observed when the population is sufficiently large.
 
-[GOOGLE2007] : http://static.googleusercontent.com/media/research.google.com/en/us/archive/disk_failures.pdf
+[GOOGLE2007]: http://static.googleusercontent.com/media/research.google.com/en/us/archive/disk_failures.pdf

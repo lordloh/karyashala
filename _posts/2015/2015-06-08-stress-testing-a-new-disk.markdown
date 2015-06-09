@@ -13,23 +13,24 @@ With a growing media collection, I am forced to buy a 2 TB hard disk about ever 
 
 1. There are a dozen brands to choose from.
 2. Each brand has multiple models with nearly the same specifications.
-3. Each disk you can find on New Egg or Amazon has mixed reviews of people claiming it to die within a month to within a year and pople claiming it to work for years.
+3. Each disk you can find on Newegg or Amazon has mixed reviews of people claiming it to die within a month to within a year and pople claiming it to work for years.
 
-Once you have read a few horror stories of a disk dying within a year, you will be inclined to avoid buying these drives. However, you shortlisted drives will have exactly zero drives. So, what do we do now? Is there no drive that you can trust?
+Once you have read a few horror stories of a disks dying within a year, you will be inclined to avoid buying these drives. However, you shortlisted drives will have exactly zero drives. So, what do we do now? Is there no drive that you can trust?
 
 It is hard to answer this question as an emphatic "Yes" or "No".
 
-The disk manufacturers are more concerned about the statistical failure rate. 1 / 10,000 failing for the manufacturer may seem good. However, as an end user buying at most 2 or 3 disks, you will not likely enjoy the benefits of these impressive statistics. At the rate of 1/10,000 failures, you can expect 0.0003 drives to fail when you buy 3. However since the minimum disks that con fail is 1, you will perceive the failure rate as 33%.
+The disk manufacturers are more concerned about the statistical failure rate. 1 / 10,000 failing for the manufacturer may seem good. However, as an end user buying at most 2 or 3 disks, you will not likely enjoy the benefits of these impressive statistics. At the rate of 1/10,000 failures, you can expect 0.0003 drives to fail when you buy 3. However since the minimum disks that can fail is 1, you will perceive the failure rate as 33%.
 
 There is an entire branch of statistics dedicated to [reliability](https://en.wikipedia.org/wiki/Reliability_engineering). Your problem is not that of owning a reliable disk (Forget it. It do not exist!), but preserving your data in spite of being stored on unreliable disks. Reliability trends for most manufactured products follows the [bathtub curve](https://en.wikipedia.org/wiki/Bathtub_curve) as shown in the figure (from Wikipedia).
 
 ![Bathtub Curve](http://cdn.bharath.lohray.com.s3.amazonaws.com/weblog/im/stress-testing-a-new-disk/Bathtub_curve.svg)
 **Bathtub Curve**
 
-The probability of failure of a brand new disks is high primarily due to manufacturing defects. If the drive survives 'infancy', through the initial uncertainties, it may fail yet due to random factors (including manufacturing defects). Now, if you are fortunate and your hard disk survives to a ripe old age (no more than 6 to 7 years - and people may argue), the probability of failure shoots up again. This time around, ageing and fatigue will be the major contributors.
+The probability of failure of a brand new disks is high. This is primarily due to manufacturing defects. If the drive survives the initial uncertainties through 'infancy', it may fail yet due to random factors (including manufacturing defects and ageing). Now, if you are fortunate and your hard disk survives to a ripe old age (no more than 6 to 7 years - and people may argue), the probability of failure shoots up again. This time around, ageing and fatigue will be the major culprits.
 
-To this end, I have in the past attempted to mitigate my risks by
-1. Buying from a reliable vendor who provides a no question return policy - Amazon, even if I had to pay a few dollars more.
+To this end, I have in the past attempted to mitigate my risks by -
+
+1. Buying from a reliable vendor who provides a no question return policy - (viz. Amazon), even if I had to pay a few dollars more.
 2. By running a stress test on the disks.
 
 The stress test consists of reading and writing the disks several times continuously for ~ 10 day. This, I believe helps me accelerate the process of initial failure. So, am I saying that I am trying to make my drive fail?? Yes. I am better off with a drive that fails within the first 30 days - so I can return it for a full refund or replacement. Moreover, at this point, I have not committed any important information to the disk for which I do not have a backup copy elsewhere. After the first three months, I gradually increase my reliability and get rid of the backup copies - I know this is a bad idea. I am cutting corners. If I had $$$ to spare, I would have stashed 1 additional copy locally and one copy remotely.
@@ -58,6 +59,6 @@ To conclude, I would sum up as -
 2. Buy from reputed vendors - check their return policies.
 3. Always keep multiple copies if you can afford it. If it is your projects, homeworks, photographs, home videos or any thing that cannot be replaced, keep a second copy anyway.
 
-Additionally I would like to point out some [research by Google studying large populations of hard drives](GOOGLE2007). According to them, technologies such as [SMART](https://en.wikipedia.org/wiki/S.M.A.R.T.) were not reliable at predicting failures for individual drives. However correlations may only be observed for large populations.
+Additionally I would like to point out some [research by Google studying large population of hard drives](GOOGLE2007). According to them, technologies such as [SMART](https://en.wikipedia.org/wiki/S.M.A.R.T.) were not reliable at predicting failures for individual drives. However correlations may only be observed when the population is sufficiently large.
 
 [GOOGLE2007] : http://static.googleusercontent.com/media/research.google.com/en/us/archive/disk_failures.pdf

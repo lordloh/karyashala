@@ -50,6 +50,7 @@ Over the years, I have bought eleven [Toshiba Canvio](http://amzn.to/1T8nUVr)s. 
 I run a NAS with 4 x 4TB [WD Green](http://amzn.to/1dZiR9Z), 1 x [WD Black](http://amzn.to/1QknCfv) and have two [Seagate external USB drives](http://amzn.to/1JB0dCs). I also own 6 [Mushkin SSDs](http://amzn.to/1AZ92Da) that I use for my experimental cluster and two [Seagate Momentus Hybrid](http://amzn.to/1dZjm42) internal HDDs for my laptop. One of the three I bought was making an occasional beeping noise and was returned (this can also happen if the power is insufficient).
 
 To conclude, I would sum up as -
+
 1. Run a stress test on new disks.
 2. Buy from reputed vendors - check their return policies.
 3. Always keep multiple copies if you can afford it. If it is your projects, homeworks, photographs, home videos or any thing that cannot be replaced, keep a second copy anyway.

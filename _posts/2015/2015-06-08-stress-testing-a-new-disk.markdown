@@ -23,6 +23,9 @@ The disk manufacturers are more concerned about the statistical failure rate. 1 
 
 There is an entire branch of statistics dedicated to [reliability](https://en.wikipedia.org/wiki/Reliability_engineering). Your problem is not that of owning a reliable disk (Forget it. It do not exist!), but preserving your data in spite of being stored on unreliable disks. Reliability trends for most manufactured products follows the [bathtub curve](https://en.wikipedia.org/wiki/Bathtub_curve) as shown in the figure (from Wikipedia).
 
+![Bathtub Curve](http://cdn.bharath.lohray.com.s3.amazonaws.com/weblog/im/stress-testing-a-new-disk/Bathtub_curve.svg)
+**Bathtub Curve**
+
 The probability of failure of a brand new disks is high primarily due to manufacturing defects. If the drive survives 'infancy', through the initial uncertainties, it may fail yet due to random factors (including manufacturing defects). Now, if you are fortunate and your hard disk survives to a ripe old age (no more than 6 to 7 years - and people may argue), the probability of failure shoots up again. This time around, ageing and fatigue will be the major contributors.
 
 To this end, I have in the past attempted to mitigate my risks by

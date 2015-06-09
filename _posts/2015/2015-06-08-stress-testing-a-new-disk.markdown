@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stress testing a new disk"
+title: "Stress Testing a New Disk"
 date: "2015-06-08 00:00"
 permalink: stress-testing-a-new-disk
 category: [Linux, hardware, technology]

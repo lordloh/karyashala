@@ -1,0 +1,48 @@
+---
+layout: post
+title: "CR and CR-LF"
+date: "2015-06-27 00:00"
+permalink: cr-cr-lf
+category: [Linux]
+tags: [tips-tricks]
+author: Bharath Bhushan Lohray
+comments: true
+---
+
+Anyone who has worked extensively between Linux machines and Windows machines has at some time come across a lot of badly formatted documents. Inititally, I would spend a lot of time finding the end of the line and pressing <enter> to format the document properly. After months of doing this, I realized that this is due to the line endings or the end of line (`EOL`) ([see Wikipedia](https://en.wikipedia.org/wiki/Newline)). Windows sees the end of a line differently from the way \*nix sees it.
+
+There are a quite a few end of line characters. Carriage Return (`CR`) and Line Feed(`LF`) being the more often used. To understand these, consider a typewriter. Typewriters have two actions to move to a new line -
+
+* **Line Feed** - Feeds the paper up one line, but keeps the typing position (cursor) at the same spot.
+* **Carriage Return** - Moves the typing position to the start of the line, without moving across lines.
+
+When one strikes the line feed lever of a typewriter, the paper is first fed. Further forcing the lever causes it to move the paper carriage to the start of the line (carriage return). The `LF` and `CR` behave in the same way.
+
+| System | End of Line Character | Symbolic Representation |
+|:-------|----------------------:|------------------------:|
+| Windows / DOS | `CR + LF` |   `\r\n` |
+| \*Nix | `LF` | `\n` |
+| Risc OS | `LF + CR` | `\n\r` |
+| MacOS upto version 9 | `CR` | `\r` |
+
+**The table above lists line endings for a few platforms.**
+
+Knowing about the line breaks did not help me in formatting the files. I continued fixing my files the hard way for years, before stumbling across the utility - `dos2unix`. On Ubuntu, this can be installed easily using
+
+```sudo apt-get install dos2unix```
+
+and may be used as easily as -
+
+```
+dos2unix filename
+```
+
+This changes DOS / Windows line endings to *Nix format. The other commands are -
+
+```
+unix2dos filename
+mac2unix filename
+unix2mac filename
+```
+
+This is a utility than could have saved me hours of work. This utility also exists for cygwin.

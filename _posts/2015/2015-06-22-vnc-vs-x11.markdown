@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VNC vs X11"
-date: "2015-06-22 00:00"
+date: "2015-06-30 00:00"
 permalink: vnc-vs-x11
 category: [Linux]
 tags: [tips-tricks]
@@ -9,7 +9,7 @@ author: Bharath Bhushan Lohray
 comments: true
 ---
 
-Recently, I have had an argument with [Priyanka](https://www.linkedin.com/pub/priyanka-mahale/15/b1b/b90) who prefers using GUI to terminal. She used VNC sessions to view her remote Linux machine desktops on Windows machines. The whole experience was slow and lagged a lot. I on the other hand preferred to use the terminal and used X11 forwarding when needed. My logic for favouring X11 forwarding was that I thought it made more efficient use of the bandwidth as all X11 programs had to send was rendering instructions instead of sending bitmaps of a rendered desktop. After a few days, I decided to google "VNC vs X11 forwarding" to see what other people thought of it.
+Recently, I have had an argument with [Priyanka](https://www.linkedin.com/pub/priyanka-mahale/15/b1b/b90) who prefers using GUI to terminal. She used VNC sessions to view her remote Linux machine desktops on Windows machines. The whole experience was slow and lagged a lot. I on the other hand preferred to use the terminal and used X11 forwarding when needed. My logic for favouring X11 forwarding was that I thought it made more efficient use of the bandwidth as all X11 programs had to send was rendering instructions instead of sending bitmaps of a rendered desktop (the VNC way). After a few days, I decided to google "VNC vs X11 forwarding" to see what other people thought of it.
 
 My research led me to conclude that VNC outclasses X11 forwarding on two fronts -
 
@@ -22,7 +22,13 @@ VNC compresses data before transmission while X11 forwarding does not implement 
 * [RFB 3.8 protocol (November 2010)](https://www.realvnc.com/docs/rfbproto.pdf).
 * [X11 R7.7 (June 2012)](http://www.x.org/releases/X11R7.7/doc/index.html).
 
-Skimming through these documents, I am convinced that X11 protocol has no compression. A further search led me to find -
+Skimming through these documents, I am convinced that X11 protocol offers no compression.
+
+# X11 Forwarding
+
+In spite of the advantages of VNC, X11 forwarding has advantages too. X11 forwarding works by sending rendering instructions to the X11 server as opposed to pixel based VNC protocol. While this allows VNC to render any desktop, it also means that all pixels must be sent to he VNC client to render. If X11 Forwarding over came the above two points (Session and Compression), it would easily prove superior to VNC.
+
+Another search found me -
 
 * [DXPC](http://www.vigor.nu/dxpc/) - Differential X Protocol Compressor and
 * [NX Proxy](https://en.wikipedia.org/wiki/NX_technology).
@@ -31,4 +37,6 @@ These are two implementations designed to provide compression to the X11 forward
 
 ![DXPC](http://cdn.bharath.lohray.com/weblog/im/vnc-vs-x11/X11ForwardingProxy.svg)
 
-**To conclude**, I am tempted to switch over to VNC. As most people recommend using screen, while using the terminal, VNC seems to be the screen equivalent for X11 programs. However, I must warn about playing movies remotely or putting up an exotic wallpaper. There is no way to compress and send these over the network efficiently. I tried a free license of `Real VNC` and am pretty happy with it so far. See a [comparison of a few VNC implementations](http://www.dbuggr.com/milly/vnc-viewer-comparison-tightvnc-ultravnc-realvnc/).
+[Nomachine](https://www.nomachine.com/) provides a free tool that implements NX technology. It is available for Windows, Linux and OSX.
+
+[WinSwitch](https://winswitch.org/) is another tool which allows resuming single apps across sessions and is also available for Windows, OSX and Linux.

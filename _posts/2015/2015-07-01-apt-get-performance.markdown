@@ -30,4 +30,4 @@ Looking through the documentation, I found - the [How To avoid use of IPv4 (or I
 
 Once I had this in place, I restarted my `apt-cacher-ng`  service using `sudo apt-cacher-ng restart` and attempted to update using the plain `sudo apt-get update`. And it worked. And fast!
 
-Hope this post helps alleviate someone's frustrations. I am glad I found this solution. I was considering trying out [`squid-deb-proxy`](https://launchpad.net/squid-deb-proxy)`. This would have been a futile waste of time.
+Hope this post helps alleviate someone's frustrations. I am glad I found this solution. I was considering trying out [`squid-deb-proxy`](https://launchpad.net/squid-deb-proxy). This would have been a futile waste of time.

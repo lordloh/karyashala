@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Improving apt-get performance"
+title: "Improving apt-get performance."
 date: "2015-07-01 00:00"
 permalink: apt-get-performance
 category: [Linux]
@@ -22,6 +22,12 @@ and it worked. Then, I got my proxy back and attempted to update using -
 ```
 sudo apt-get update -o Acquire::ForceIPv4=true
 ```
-and this did not work. I realized that this forced an IPv4 connection to my proxy. Which incidentally happened to be running on the same computer. I realized that I had to force my `apt-cacher-ng` to to make IPv4 connections only. Looking through the documentation, I found - the [How To avoid use of IPv4 (or IPv6) where possible?](https://www.unix-ag.uni-kl.de/~bloch/acng/html/howtos.html#howto-outproto) While the document was of little use, I discovered that I could edit ` /etc/apt-cacher-ng/acng.conf` file and add the line `ConnectProto: v4` to force only IPv4 outgoing connection to remote repositories. Once I had this in place, I restarted my `apt-cacher-ng`  service using `sudo apt-cacher-ng restart` and attempted to update using the plain `sudo apt-get update`. And it worked. And fast!
+and this did not work. I realized that this forced an IPv4 connection to my proxy, which incidentally happened to be running on the same computer, but did not force proxy to make IPv4 connection to the remote repositories. I realized that I had to force my `apt-cacher-ng` to to only make IPv4 connections.
 
-Hope this helps allivate someone's frustrations. I am glad I found this solution. I was considering trying out `[squid-deb-proxy](https://launchpad.net/squid-deb-proxy)`. This would have been a futile waste of time.
+Looking through the documentation, I found - the [How To avoid use of IPv4 (or IPv6) where possible?](https://www.unix-ag.uni-kl.de/~bloch/acng/html/howtos.html#howto-outproto) While the document was of little use, I discovered that I could edit ` /etc/apt-cacher-ng/acng.conf` file and add the following line to force only IPv4 outgoing connection to remote repositories.
+
+```ConnectProto: v4```
+
+Once I had this in place, I restarted my `apt-cacher-ng`  service using `sudo apt-cacher-ng restart` and attempted to update using the plain `sudo apt-get update`. And it worked. And fast!
+
+Hope this post helps alleviate someone's frustrations. I am glad I found this solution. I was considering trying out [`squid-deb-proxy`](https://launchpad.net/squid-deb-proxy)`. This would have been a futile waste of time.

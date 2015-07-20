@@ -20,7 +20,7 @@ What’s up?__
 ### Whatsapp
 However, this is not the reason I am posting this entry. This entry is to explain why I adamantly refuse to use the popular service [whatsapp](http://www.whatsapp.com/).
 
-The policy and the frame work of the whatsapp service is as bad as the infernal phrase that inspired it’s name. Whatsapp attempts to be a low cost replacement to SMS Message Service. The question I would like to ask is “Do we need another low cost replacement to SMS?”.
+The policy and the framework of the whatsapp service is as bad as the infernal phrase that inspired it’s name. Whatsapp attempts to be a low cost replacement to SMS Message Service. The question I would like to ask is “Do we need another low cost replacement to SMS?”.
 
 4G LTE-A is gearing up to be the driving technology of mobile telecommunications in the foreseeable future. The spectral efficiency of LTE is 96 time higher than 2G telecommunications networks used for voice calls (telephony)ref. This will eventually lead to wide deployment of voice over LTE (Korea is already doing this). So couple of year down the line we shall see pure internet mobile devices unlike the mobile devices today which have an additional LTE modem apart from the RF Front end to make voice calls. It goes without saying that a pure internet device could use any messaging service to send short text messages. I am tempted to say that future phone numbers shall be formatted as “user@domain.com” using SIP, but this just wishful thinking on my part. This is less likely to happen as it shall become hard for service providers to bill people for minutes! According to me, a fair billing would be paying for data usage and XMPP or SIP service for maintenance and nothing more.
 

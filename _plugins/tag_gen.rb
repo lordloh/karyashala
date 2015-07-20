@@ -10,7 +10,8 @@ module Jekyll
       self.data['tag'] = tag
       tag_title_prefix = site.config['tag_title_prefix'] || 'Posts Tagged <span style="font-weight:900">&ldquo;'
       tag_title_suffix = site.config['tag_title_suffix'] || '</span>&rdquo;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}#{tag_title_suffix}"
+      self.data['titleHTML'] = "#{tag_title_prefix}#{tag}#{tag_title_suffix}"
+      self.data['title'] = "#{tag}"
     end
   end
   class TagGenerator < Generator

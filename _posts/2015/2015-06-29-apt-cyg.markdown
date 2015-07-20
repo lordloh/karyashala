@@ -11,7 +11,7 @@ comments: true
 
 Cygwin is a popular solution to use Linux/Unix applications on windows. Cygwin provides a [POSIX](https://en.wikipedia.org/wiki/POSIX) (Portable Operating System Interface) compliant environment for development and execution of \*Nix programs. Cygwin is available for x86 64 bits.
 
-To install cygwin, one needs to use the `setup.exe` file which lets one select a list of packages to install, downloads it and finally installs it. However, one needs to go through the same process to update or install new components. I wanted to have a solution like ubuntu's `apt-get` package manager to quickly install packages without having to go through the GUI. To this end, I tried a quick google search and found `[apt-cgy](https://github.com/transcode-open/apt-cyg)`.
+To install cygwin, one needs to use the `setup.exe` file which lets one select a list of packages to install, downloads it and finally installs it. However, one needs to go through the same process to update or install new components. I wanted to have a solution like ubuntu's `apt-get` package manager to quickly install packages without having to go through the GUI. To this end, I tried a quick google search and found [`apt-cyg`](https://github.com/transcode-open/apt-cyg).
 
 As described in the readme in the git repository, installation of `apt-cgy` is pretty straightforward.
 

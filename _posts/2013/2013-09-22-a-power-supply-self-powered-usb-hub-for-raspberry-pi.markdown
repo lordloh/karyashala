@@ -59,6 +59,7 @@ To keep the hub in place, I decided to stick it to the Adafruit acrylic box ([Am
 ![The Raspberry Pi Power Setup connected to the Raspberry Pi.](http://cdn.bharath.lohray.com/weblog/im/a-power-supply-self-powered-usb-hub-for-raspberry-pi/DSC_5723.jpg)
 
 2013-10-01: I discovered that makezine referred to my post – [see this](http://makezine.com/2013/09/30/usb-hub-powers-the-pi-and-its-peripherals/).
+2015-08-23: Republished on [hackster.io](https://www.hackster.io/lordloh/a-power-supply-self-powered-usb-hub-for-raspberry-pi).
 
 [AMZN_D1_5TB]: http://www.amazon.com/gp/product/B00847V9Z6/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00847V9Z6&linkCode=as2&tag=karyashala-20
 [AMZN_D2TB]: http://www.amazon.com/gp/product/B00ARJD56K/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00ARJD56K&linkCode=as2&tag=karyashala-20

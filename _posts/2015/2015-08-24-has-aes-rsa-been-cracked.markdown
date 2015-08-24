@@ -13,10 +13,10 @@ So, has the AES or the RSA been cracked?
 I don't know. I am not going to present theories in this post explaining probabilities and mathematics of how (im)probable it is. What I am going to do is point out certain events from history that would highlight the patterns of governments using cryptography , cryptanalysis and how enviously these information were protected. Based on this, I leave it to you to decide if the AES / RSA has been cracked...
 
 Lets start with the assumption that the AES / RSA has not been cracked. To support this postulate, we have,
-1. A lot of technology news about NSA putting it's weight behind extending surveillance programs. See: 
+1. A lot of technology news about NSA putting it's weight behind extending surveillance programs. See:
  [Deeplinks blog:NSA-spying](https://www.eff.org/nsa-spying),
  [XKeyscore](https://en.wikipedia.org/wiki/XKeyscore),
- [PRISM](https://en.wikipedia.org/wiki/PRISM_(surveillance_program),
+ [PRISM](https://en.wikipedia.org/wiki/PRISM_(surveillance_program)),
  [etc](https://en.wikipedia.org/wiki/Global_surveillance).
 
 2. NSA strong arming technology corporations to disclose user data, especially decryption keys. See:  [Lavabit](https://en.wikipedia.org/wiki/Lavabit).

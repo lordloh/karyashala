@@ -5,7 +5,7 @@ date: "2013-11-14 00:00"
 permalink: bash-auto-completions-and-colours
 tags: [tips-tricks, shell]
 comments: true
-category: Linux
+category: [Linux]
 author: Bharath Bhushan Lohray
 ---
 

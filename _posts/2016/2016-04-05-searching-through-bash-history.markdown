@@ -18,10 +18,12 @@ ps aux | grep -i java
 kill 12345
 ```
 
-Now, after executing the last command, should I want to recall the first command, I can type
+Now, after executing the last command, should I want to recall the first command, I can type -
+
 ```
 java <up arrow>
 ```
+
 and have the command `java -jar htmlcompressor-1.5.3.jar -r ...` populated at the shell prompt.
 
 Unfortunately this is not the default behaviour of Bash in most Linux installations. However, this may be remedied with just 2 lines of configuration in the `~/.inputrc` file -

@@ -2,7 +2,8 @@
 layout: post
 title: "MATLAB Startup Folder"
 date: "2013-09-26 00:00"
-permalink: matlab-startup-folder
+slug: matlab-startup-folder
+permalink: /:title/
 comments: true
 tags: [tips-tricks]
 category: MATLAB

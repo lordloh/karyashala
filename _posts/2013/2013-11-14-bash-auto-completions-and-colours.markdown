@@ -2,10 +2,11 @@
 layout: post
 title: "bash auto completions and colours"
 date: "2013-11-14 00:00"
-permalink: bash-auto-completions-and-colours
+slug: bash-auto-completions-and-colours
+permalink: /:title/
 tags: [tips-tricks, shell]
 comments: true
-category: [Linux]
+category: [linux]
 author: Bharath Bhushan Lohray
 ---
 

@@ -2,10 +2,11 @@
 layout: post
 title:  "How to re-read the partition table without removing the SD card"
 date:   2013-08-23 00:00
-categories: Linux
+categories: linux
 comments: true
 tags: [tips-tricks]
-permalink: how-to-re-read-the-partition-table-without-removing-the-sd-card
+slug: how-to-re-read-the-partition-table-without-removing-the-sd-card
+permalink: /:title/
 author: Bharath Bhushan Lohray
 ---
 Say you take a blank SD card, plug it into a computer. It may now appear as `/dev/sdd`. Let us now dump an image with two partition on this card

@@ -2,10 +2,11 @@
 layout: post
 title:  "A Power Supply & Self Powered USB Hub for Raspberry Pi"
 date:   2013-09-22 00:00
-categories: [Embedded,Hardware]
+categories: [Embedded, Hardware]
 comments: true
 tags: [raspberry-pi, diy]
-permalink: a-power-supply-self-powered-usb-hub-for-raspberry-pi
+slug: a-power-supply-self-powered-usb-hub-for-raspberry-pi
+permalink: /:title/
 author: Bharath Bhushan Lohray
 ---
 Of all the applications of the Raspberry Pi, I found running it as a media centre the most utilitarian for my purpose. And why not? It consumes just 5 Watts of power, sports 2 USB ports, an Ethernet port and is nicely topped with a hardware MPEG-4 decoders. The only problems I have had was finding a proper power supply and connecting external portable USB hard drives.

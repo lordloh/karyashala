@@ -2,10 +2,11 @@
 layout: post
 title: "How do I mount an SD card image that has multiple partitions?"
 date: "2013-01-06 23:21"
-category: Linux
+category: [linux]
 comments: true
 tags: [tips-tricks, shell, diskImage]
-permalink: how-do-i-mount-an-sd-card-image-that-has-multiple-partitions
+slug: how-do-i-mount-an-sd-card-image-that-has-multiple-partitions
+permalink: /:title/
 author: Bharath Bhushan Lohray
 ---
 

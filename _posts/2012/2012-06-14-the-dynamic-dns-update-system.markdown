@@ -2,10 +2,11 @@
 layout: post
 title:  "The dynamic DNS update system"
 date:   2012-06-14 00:00
-categories: [Linux, webWorks]
+categories: [linux, webWorks]
 tags: [dns, diy, web]
 comments: true
-permalink: the-dynamic-dns-update-system
+slug: the-dynamic-dns-update-system
+permalink: /:title/
 author: Bharath Bhushan Lohray
 ---
 Most ISPs provide subscribers with a dynamic IP which changes every time you disconnect from the internet and reconnect. The problem of a changing IP is not so perceptible with a cable internet as most of the subscribers keep their modems hooked up and powered up 24 x 7. So the individual IPs are held by users almost indefinitely. Keeping a modem powered up 24 x 7 is still not a perfect solution as one might get disconnected due to a power failure or a fault on the cable. The bottom line is that unless you have a static IP provided by your ISP (usually for some extra $$), you cannot be assured of having a fixed IP at all.

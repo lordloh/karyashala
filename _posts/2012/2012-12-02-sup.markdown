@@ -4,7 +4,8 @@ title:  "'sup"
 date:   2012-12-02 00:00
 categories: [opinion,technology]
 tags: [communications]
-permalink: sup
+slug: sup
+permalink: /:title/
 comments: true
 author: Bharath Bhushan Lohray
 ---

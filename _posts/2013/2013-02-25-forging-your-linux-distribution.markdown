@@ -2,10 +2,11 @@
 layout: post
 title: "Forging your Linux Distribution"
 date: "2013-02-25 00:00"
-category: Linux
+category: linux
 tags: [tips-tricks]
 comments: true
-permalink: forging-your-linux-distribution
+slug: forging-your-linux-distribution
+permalink: /:title/
 author: Bharath Bhushan Lohray
 ---
 

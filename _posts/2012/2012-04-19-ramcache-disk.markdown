@@ -2,10 +2,11 @@
 layout: post
 title:  "RAMCache Disk"
 date:   2012-04-19 00:00
-categories: Linux
+categories: [linux]
 comments: true
 tag: [tips-tricks, ramdisk]
-permalink: ramcache-disk
+slug: ramcache-disk
+permalink: /:title/
 author: Bharath Bhushan Lohray
 ---
 

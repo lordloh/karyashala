@@ -2,10 +2,11 @@
 layout: post
 title: "Manual Memory Management."
 date: "2013-12-26 00:00"
-permalink: manual-memory-management
+slug: manual-memory-management
+permalink: /:title/
 comments: true
 tags: [tips-tricks, shell]
-category: Linux
+category: [linux]
 author: Bharath Bhushan Lohray
 ---
 

@@ -2,10 +2,11 @@
 layout: post
 title: "Compiling and using U-Boot for BeagleBone."
 date: "2013-01-07 23:21"
-category: [Linux,embedded]
+category: [linux, embedded]
 comments: true
 tags: [tips-tricks, BeagleBone, u-boot]
-permalink: compiling-and-using-u-boot-for-beaglebone
+slug: compiling-and-using-u-boot-for-beaglebone
+permalink: /:title/
 author: Bharath Bhushan Lohray
 ---
 

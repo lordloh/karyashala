@@ -5,7 +5,8 @@ date:   2013-08-16 00:00
 categories: MATLAB
 tags: [code]
 comments: true
-permalink: functions-with-variable-length-arguments-in-matlab
+slug: functions-with-variable-length-arguments-in-matlab
+permalink: /:title/
 author: Bharath Bhushan Lohray
 ---
 Here is a small MATLAB script that demonstrates creating a function with variable length arguments.

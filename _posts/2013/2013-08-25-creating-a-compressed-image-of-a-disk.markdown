@@ -2,10 +2,11 @@
 layout: post
 title:  "Creating a compressed image of a disk."
 date:   2013-08-25 00:00
-categories: Linux
+categories: linux
 comments: true
 tags: [tips-tricks]
-permalink: creating-a-compressed-image-of-a-disk
+slug: creating-a-compressed-image-of-a-disk
+permalink: /:title/
 author: Bharath Bhushan Lohray
 ---
 While playing around with embedded devices, I often end up doing some things that crash my system and the only quick way to recover is by reinstalling the OS. Reinstalling the OS is pretty time consuming and not to mention that you loose all your custom settings.

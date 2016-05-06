@@ -4,7 +4,8 @@ title:  "Syncthing experience"
 date:   2015-07-12 00:00
 categories: [technology]
 tags: [storage, cloud]
-permalink: syncthing-experience
+slug: syncthing-experience
+permalink: /:title/
 comments: true
 author: Bharath Bhushan Lohray
 ---

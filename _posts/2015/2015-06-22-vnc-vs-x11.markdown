@@ -2,8 +2,9 @@
 layout: post
 title: "VNC vs X11"
 date: "2015-06-30 00:00"
-permalink: vnc-vs-x11
-category: [Linux]
+slug: vnc-vs-x11
+permalink: /:title/
+category: [linux]
 tags: [tips-tricks]
 author: Bharath Bhushan Lohray
 comments: true

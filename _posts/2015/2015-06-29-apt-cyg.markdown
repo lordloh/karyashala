@@ -2,8 +2,9 @@
 layout: post
 title: "apt-cyg: A Package Manager for Cygwin."
 date: "2015-06-29 00:00"
-permalink: apt-cyg
-category: [Linux]
+slug: apt-cyg
+permalink: /:title/
+category: [linux]
 tags: [tips-tricks]
 author: Bharath Bhushan Lohray
 comments: true

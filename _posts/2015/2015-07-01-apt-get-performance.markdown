@@ -2,8 +2,9 @@
 layout: post
 title: "Improving apt-get performance."
 date: "2015-07-01 00:00"
-permalink: apt-get-performance
-category: [Linux]
+slug: apt-get-performance
+permalink: /:title/
+category: [linux]
 tags: [tips-tricks]
 author: Bharath Bhushan Lohray
 comments: true

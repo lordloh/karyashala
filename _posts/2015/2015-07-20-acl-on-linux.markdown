@@ -4,7 +4,8 @@ title:  "ACLs on Linux"
 date:   2015-07-20 00:00
 categories: [linux]
 tags: [tips-tricks]
-permalink: acl-on-linux
+slug: acl-on-linux
+permalink: /:title/
 comments: true
 author: Bharath Bhushan Lohray
 ---

@@ -2,9 +2,10 @@
 layout: post
 title:  "Has AES / RSA been cracked?"
 date:   2015-08-24 00:00
-categories: [opinion,technology]
+categories: [opinion, technology]
 tags: [encryption]
-permalink: has-aes-rsa-been-cracked
+slug: has-aes-rsa-been-cracked
+permalink: /:title/
 comments: true
 author: Bharath Bhushan Lohray
 ---

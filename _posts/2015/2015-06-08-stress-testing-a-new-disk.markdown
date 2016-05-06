@@ -2,7 +2,8 @@
 layout: post
 title: "Stress Testing a New Disk"
 date: "2015-06-08 00:00"
-permalink: stress-testing-a-new-disk
+slug: stress-testing-a-new-disk
+permalink: /:title/
 category: [Linux, hardware, technology]
 tags: [tips-tricks]
 author: Bharath Bhushan Lohray

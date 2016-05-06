@@ -2,8 +2,9 @@
 layout: post
 title: "Push Notifications from MATLAB"
 date: "2015-06-03 00:00"
-permalink: push-notifications-from-matlab
-category: [Linux, MATLAB]
+slug: push-notifications-from-matlab
+permalink: /:title/
+category: [linux, MATLAB]
 tags: [tips-tricks, communications]
 author: Bharath Bhushan Lohray
 comments: true

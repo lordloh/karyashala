@@ -4,7 +4,8 @@ title:  "Searching through Bash History?"
 date:   2016-04-05 00:00
 categories: [Linux]
 tags: [tips-tricks, shell]
-permalink: Searching-through-bash-history
+slug: Searching-through-bash-history
+permalink: /:title/
 comments: true
 author: Bharath Bhushan Lohray
 ---

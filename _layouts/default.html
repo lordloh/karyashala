@@ -7,6 +7,9 @@
       <div class="wrapper" style="text-align:justify">
         {{ content }}
       </div>
+	  <div>
+		{% include adsense.html %}
+	  </div>
       {% if page.comments %}
         {% include disqus.html %}
       {% endif %}

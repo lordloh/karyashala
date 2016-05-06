@@ -2,7 +2,7 @@
 layout: post
 title:  "Searching through Bash History?"
 date:   2016-04-05 00:00
-categories: [Linux]
+categories: [linux]
 tags: [tips-tricks, shell]
 slug: Searching-through-bash-history
 permalink: /:title/

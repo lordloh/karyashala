@@ -4,7 +4,7 @@ title: "Stress Testing a New Disk"
 date: "2015-06-08 00:00"
 slug: stress-testing-a-new-disk
 permalink: /:title/
-category: [Linux, hardware, technology]
+category: [linux, hardware, technology]
 tags: [tips-tricks]
 author: Bharath Bhushan Lohray
 comments: true

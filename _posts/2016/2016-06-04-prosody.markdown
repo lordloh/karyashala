@@ -4,7 +4,8 @@ title:  "prosody"
 date:   2016-06-04 00:00
 categories: [Cloud & Internet, Opinion]
 tags: [Tips & Tricks, Web]
-permalink: prosody
+slug: prosody
+permalink: /:title/
 comments: true
 author: Bharath Bhushan Lohray
 ---

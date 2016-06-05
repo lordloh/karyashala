@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "prosody"
+date:   2016-06-04 00:00
+categories: [Cloud & Internet, Opinion]
+tags: [Tips & Tricks, Web]
+permalink: prosody
+comments: true
+author: Bharath Bhushan Lohray
+---
+I have been a fan of Google Talk since its launch. I loved all the features they kept rolling out, until they stopped doing it. Google Talk eventually morphed into Hangouts. I later learnt that they ditched the XMPP based open backend that Google Talk had and replaced it with a closed protocol. I was sad to see this shift in Google's business.
+
+While I was not using Google Talk to communicate with people out of the google network, but I was happy to have the ability to do so. I looked at this in the same frame as I would view a telephone service provider. How would I, as a subscriber feel if I had to subscribe to 4 phone services because I could not make calls from my Idea cell to BSNL or AT&T to Verizon? Objectionable, isn't it? Why do we perceive the same thing as acceptable when an online chat service is in question? Because we do not have to pay for it? This does highlight something about human behaviour...
+
+Over the years, I gave some thoughts and attempted to tinker with a few open protocol servers like Jabber (XMPP) and Astrix (SIP). My current attempt is to start a communication service for just friends and family. This way, I can communicate with my close circle without any one snooping on my communications. Moreover, I can communicate with friends who are using a different service too even if it is not an XMPP based service as long is they expose a gateway.
+
+First off all, I needed a domain name. Using lohray.com makes it sound like a family only domain. I eventually found a 3 letter domain to keep the url short - **[0xc.in](http://0xc.in)**. Why 0xC? C for communications. It is also the hex for 12.
+
+Next, I had to decide no what server to use. I debated between [ejabberd](https://www.ejabberd.im/), [jabberd2](http://jabberd2.org/) and [prosody](https://prosody.im/). I googled and quorad a few discussion and discovered that while ejabberd is the most advanced server (written in Erlang), it does not implement everything and it has a huge memory footprint. jabberd2 is written in C, fast, but have very little features. prosody (written in lua) on the other hand has a low memory footprint and has a decent set of features implemented. So, I ended up choosing prosody.
+
+Prosody was simple to install on an Ubuntu AWS EC2 instance. All it took was `sudo apt-get install prosody` and a little bit of configuration stating with who is the admin user (it is hardcoded in `/etc/prosody/prosody.cfg.lua`) and what domain to respond to. I can serve multiple domains as virtual hosts.
+
+That's it. The server is online and ready to connect people (*Nokia?*).
+
+Now for the add-ons... Security. *(Now security buffs would say that security cannot be an afterthought, but a server that cannot accept incoming connections are secure anyhow)*. I got myself a 4096 bit signed key form [Let's Encrypt](https://letsencrypt.org/), created a symbolic link `0xc.in -> /etc/letsencrypt/archive/0xc.in` and pointed the appropriate line in the configuration file to the certificate.
+
+Then I came across the xmpp testing site - [https://xmpp.net/](https://xmpp.net/index.php) and started tweaking to get a better security score. Things look good right now and am hoping that I would have enough people to have chats with. I am still in the process of adding features and plugins. I would like to soon allow a plugin that would allow file transfers.
+
+On the client side, I am currently using [Xabber](https://play.google.com/store/apps/details?id=com.xabber.android.beta) Beta on Android and [Gajim](https://gajim.org/) on Windows 10. A lot of features of the XMPP are client dependent and since the protocol is extensible, there is on client or server that implements 100%

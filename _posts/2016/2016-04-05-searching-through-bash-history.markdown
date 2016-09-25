@@ -5,7 +5,7 @@ date:   2016-04-05 00:00
 categories: [linux]
 tags: [tips-tricks, shell]
 slug: Searching-through-bash-history
-permalink: /:title/
+permalink: /:slug/
 comments: true
 author: Bharath Bhushan Lohray
 ---

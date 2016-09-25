@@ -2,10 +2,10 @@
 layout: post
 title:  "prosody"
 date:   2016-06-04 00:00
-categories: [cloud-internet, opinion]
+categories: [cloud-internet]
 tags: [tips-tricks, web]
 slug: prosody
-permalink: /:title/
+permalink: /:slug/
 comments: true
 author: Bharath Bhushan Lohray
 ---

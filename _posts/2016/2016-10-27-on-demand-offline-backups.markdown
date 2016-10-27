@@ -80,6 +80,7 @@ On a side note, comparing hubic to Dropbox, I see hubic having a huge price adva
 And hubic servers are hosted in France, we can reasonably hope that this in out of reach of the various 3 letter government agencies of the US.
 
 The downside of hubic are -
+
 1. Speed - it is slightly slower than dropbox.
 2. UI - not as great a UI as dropbox.
 3. Versioning - no versioning or undelete.

@@ -2,7 +2,7 @@
 layout: post
 title:  "The dynamic DNS update system"
 date:   2012-06-14 00:00
-categories: [linux, webWorks]
+categories: [linux, web-works]
 tags: [dns, diy, web]
 comments: true
 slug: the-dynamic-dns-update-system

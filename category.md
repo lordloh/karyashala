@@ -12,4 +12,4 @@ date: "2013-04-29 00:00"
 * [Embedded](/weblog/embedded)
 * [Links](/weblog/links)
 * [Technology](/weblog/technology)
-* [Web Works](/weblog/webworks)
+* [Web Works](/weblog/web-works)

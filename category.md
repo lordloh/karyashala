@@ -13,3 +13,4 @@ date: "2013-04-29 00:00"
 * [Links](/weblog/links)
 * [Technology](/weblog/technology)
 * [Web Works](/weblog/webworks)
+* [Programming](/weblog/programming)

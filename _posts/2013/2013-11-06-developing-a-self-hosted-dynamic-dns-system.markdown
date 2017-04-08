@@ -2,7 +2,7 @@
 layout: post
 title:  "Developing a self-hosted Dynamic DNS System"
 date:   2013-11-06 00:00
-category: [linux, WebWorks]
+category: [linux, web-works]
 comments: true
 tags: [diy, dns]
 slug: developing-a-self-hosted-dynamic-dns-system

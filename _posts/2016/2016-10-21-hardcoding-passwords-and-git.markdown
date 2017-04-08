@@ -39,7 +39,7 @@ login(username=credentials['user'] password=credentials['password']")
 I eventually hosted this python script as a CGI on my apache web server. In this case, you can protect your credentials using the following configuration directives -
 
 ```
-<Files ~ "\credentials.json$">
+<Files ~ "credentials.json$">
 	Require all denied
 </Files>
 ```

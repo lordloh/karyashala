@@ -47,7 +47,7 @@ Alas, the SSH session persisted.
 Finally, I decided to use the `screen` utility with the `-d` switch to detach the screen. 
 
 ```
-local_user@hostname:~$ ssh remote_user@remote_host "screen -d sudo pm-suspend"
+local_user@hostname:~$ ssh remote_user@remote_host "screen -d -m sudo pm-suspend"
 ```
 
 This time, not only did the remote host enter the sleep state, but the SSH session terminated as desired.

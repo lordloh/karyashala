@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Securing with Port Knocking"
-date:   2017-04-07 00:00
+date:   2017-04-30 00:00
 categories: [linux]
 tags: [tips-tricks, shell]
 slug: securing_with_port_knocking

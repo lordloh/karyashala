@@ -12,9 +12,11 @@ author: Bharath Bhushan Lohray
 Recently I had a problem with a very large file I downloaded and wanted to have an alternative option to re-downloading it. The checksum of the file with the problem was incorrect. So I decided to look for ways to compute the MD5 checksums for parts of the file.
 
 ## How to read a part of the file?
+
 ```
 dd if=<filename> skip=<number of blocks> bs=<block size> count=<no of blocks>
 ```
+I found this solution on [stackoverflow.com](https://stackoverflow.com/a/219188/482176)
 
 So, to read a file from byte 1025 to byte 4096,
 

@@ -2,8 +2,8 @@
 layout: post
 title:  "Counting MATLAB Figures"
 date:   2017-07-03 00:00
-categories: [linux]
-tags: [tips-tricks, shell]
+categories: [MATLAB]
+tags: [tips-tricks]
 slug: counting_MATLAB_fugures
 permalink: /:slug/
 comments: true

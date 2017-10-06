@@ -43,7 +43,9 @@ It turns out that openSSH clients do have a directive called `ProxyCommand`. The
 
 My work around was -
 
-1. I edited the `~/.ssh/config` on the lab machine to add the following
+### Step 1
+
+I edited the `~/.ssh/config` on the lab machine to add the following
 
 ```
 host myhomecomputer.com
@@ -60,14 +62,16 @@ host myhomecomputer
 
 Notice the names - `myhomecomputer` (alias / shortcut)  & `myhomecomputer.com` (actual host). Attempting to SSH using the alias `myhomecomputer` executes the `ProxyCommand` line, which in turn connects to actual host myhomecomputer.com over SSH.
 
-2. The `knock_myhomecomputer_ssh` is as -
+### Step 2
+The `knock_myhomecomputer_ssh` is as -
 
 ```bash
 SLEEP_T=0.75
 knock myhomecomputer.com 64001 && sleep $SLEEP_T && knock myhomecomputer.com 64002 && sleep $SLEEP_T && knock myhomecomputer.com 64003 && sleep $SLEEP_T && knock myhomecomputer.com 64004
 ```
 
-3. Added the following to my `crontab` on the labcomputer
+### Step 3
+Added the following to my `crontab` on the labcomputer
 
 ```
 @reboot autossh -f myhomecomputer

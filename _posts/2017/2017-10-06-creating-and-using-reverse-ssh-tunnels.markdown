@@ -10,7 +10,7 @@ comments: true
 author: Bharath Bhushan Lohray
 ---
 
-A few years back, I used to SSH into my lab computer from home using the IP address of the Lab computer. Over the years, my university IT personnels restricted inbound access to the networks. I can no longer SSH into my lab computer. I wished that I could use an outbound SSH connection to use the lab computer remotely. A little bit of search revealed that such a thing was indeed possible using SSH Reverse Tunnels.
+A few years back, I used to SSH into my lab computer from home using the IP address of the Lab computer. Over the years, my university IT personnels restricted inbound access to the networks. I can no longer SSH into my lab computer. I wished that I could use an outbound SSH connection to use the lab computer remotely. A little bit of search brought up a service called [openport.io](https://openport.io/pricing) provided a simple way to achieve this. However, it is not a free service and I believed that there hand to be a free alternative to doing this. More researching revealed thing was indeed possible using SSH Reverse Tunnels.
 
 Creating a reverse tunnel using SSH in pretty simple. A reverse tunnel can be created by executing (labcomputer) -
 

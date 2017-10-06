@@ -8,9 +8,10 @@ slug: on-demand-offline-backups
 permalink: /:slug/
 comments: true
 author: Bharath Bhushan Lohray
+excerpt_separator: <!--more-->
 ---
 I have a few monthly digital magazine subscriptions that I have been getting for years. I have saved and aggregated on my hard disk. Recently, I lost a chunk of these due to my mistake at the terminal. As a precaution, I had these sync to my cloud storage space on [hubic](https://hubic.com/home/new/?referral=UUUSFV) (Offer 25GB of storage space + 50 with 5 referrals). I thought I hand a second copy secured. However, as I logged in to the hubic web interface, I saw files vanishing right before my eyes. The hubic client program syncing between my computer and the cloud was sending instructions to get rid of files that were no longer on the computer. By the time I could log in via SSH and terminate the client program, it was too late. Unlike [Dropbox](https://db.tt/F8PSoGj3), hubic does not keep deleted files to undelete. Years of aggregated magazine subscriptions lost in minutes.
-
+<!--more-->
 This made me see the necessity to have offline backups.
 
 One easy way was to set `cron` tasks to periodically copy certain folders to an external drive via `rsync`. However, leaving an external drive connected does turns this "offline" approach into "online". I felt, it would be ideal if I could plug in my drive into my NAS whenever, I wanted and this would cause a backup job to start running. I looked around and discovered that I could use [`udev`](https://en.wikipedia.org/wiki/Udev), but reading more, I decided I did not want to dive into `udev` for this.

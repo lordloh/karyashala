@@ -8,8 +8,10 @@ slug: bootstrap-like-responsive-css
 permalink: /:slug/
 comments: true
 author: Bharath Bhushan Lohray
+excerpt_separator: <!--more-->
 ---
-Several years back, I created my web based CV. It was an awesome website and I was very proud of it. Here are a few screen shots -
+Several years back, I created my web based CV. It was an awesome website and I was very proud of it. Below are a few screen shots. I was very proud of this and told the first person I met to check it out. He whipped out his phone and went to the URL - https://bharath.lohray.com/cv. The page I saw was a huge disappointment!
+<!--more-->
 
 ![Education - as seen on a desktop](https://s3.amazonaws.com/cdn.bharath.lohray.com/weblog/im/bootstrap-like-responsive-css/education_pg_dt.png)
 
@@ -25,9 +27,7 @@ __Project - as seen on a desktop__
 
 __Work - as seen on a desktop__
 
-
-I was very proud of this and told the first person I met to check it out. He whipped out his phone and went to the URL - https://bharath.lohray.com/cv. The page I saw was a huge disappointment!
-
+While the CV website looked fantastic on a desktop, they did poorly on a mobile device.
 
 ![Education - as seen on a mobile device](https://s3.amazonaws.com/cdn.bharath.lohray.com/weblog/im/bootstrap-like-responsive-css/education_pg_m.png) ![Project - as seen on a mobile device](https://s3.amazonaws.com/cdn.bharath.lohray.com/weblog/im/bootstrap-like-responsive-css/projects_pg_m.png) ![Work - as seen on a mobile device](https://s3.amazonaws.com/cdn.bharath.lohray.com/weblog/im/bootstrap-like-responsive-css/work_pg_m.png)
 
